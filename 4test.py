@@ -9,7 +9,7 @@ requests.packages.urllib3.disable_warnings()
 
 headers = {'User-Agent': 'Mozilla/5.0',
            'Authorization': 'token c975d26b6bcf32ac062c917744bb7efa37bf9d25',# 自行配置
-           # 需配置token的值,访问https://github.com/settings/tokens/new
+           # 这里需配置token的值,访问https://github.com/settings/tokens/new生成替换即可
            'Content-Type': 'application/json',
            'Retry-After': '30',
            'Accept': 'application/vnd.github.v3.text-match+json'  # 一般特殊请求头application/vnd.github.v3+json
